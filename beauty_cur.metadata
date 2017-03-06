@@ -1112,7 +1112,7 @@
         <Column>
           <Name>SENDNEWS</Name>
           <Caption>Рассылать новости</Caption>
-          <Hidden>1</Hidden>
+          <Hidden>0</Hidden>
           <Readonly>0</Readonly>
           <ShowInEditor>1</ShowInEditor>
           <ShowInParentalRelations>0</ShowInParentalRelations>
@@ -1184,7 +1184,7 @@
         <Column>
           <Name>PHOTO</Name>
           <Caption>Фото</Caption>
-          <Hidden>0</Hidden>
+          <Hidden>1</Hidden>
           <Readonly>0</Readonly>
           <ShowInEditor>1</ShowInEditor>
           <ShowInParentalRelations>0</ShowInParentalRelations>
@@ -1638,14 +1638,14 @@
         <Column>
           <Name>PHOTO</Name>
           <Caption>Фото</Caption>
-          <Hidden>0</Hidden>
+          <Hidden>1</Hidden>
           <Readonly>0</Readonly>
           <ShowInEditor>1</ShowInEditor>
           <ShowInParentalRelations>0</ShowInParentalRelations>
           <ForceFarLink>0</ForceFarLink>
           <ShowInRightPart>1</ShowInRightPart>
           <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>12</Ordinal>
+          <Ordinal>31</Ordinal>
           <TreatAsBool>0</TreatAsBool>
           <TreatAsPaswd>0</TreatAsPaswd>
           <TreatAsPicture>0</TreatAsPicture>
@@ -2041,7 +2041,7 @@
           <ForceFarLink>0</ForceFarLink>
           <ShowInRightPart>1</ShowInRightPart>
           <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>31</Ordinal>
+          <Ordinal>12</Ordinal>
           <TreatAsBool>0</TreatAsBool>
           <TreatAsPaswd>0</TreatAsPaswd>
           <TreatAsPicture>0</TreatAsPicture>
@@ -2792,7 +2792,7 @@
         <Column>
           <Name>UNITS</Name>
           <Caption>Кол-во единиц</Caption>
-          <Hidden>0</Hidden>
+          <Hidden>1</Hidden>
           <Readonly>0</Readonly>
           <ShowInEditor>1</ShowInEditor>
           <ShowInParentalRelations>0</ShowInParentalRelations>
@@ -2810,7 +2810,7 @@
         <Column>
           <Name>ISWELLNESS</Name>
           <Caption>Активна в велнес?</Caption>
-          <Hidden>0</Hidden>
+          <Hidden>1</Hidden>
           <Readonly>0</Readonly>
           <ShowInEditor>1</ShowInEditor>
           <ShowInParentalRelations>0</ShowInParentalRelations>
@@ -2872,24 +2872,6 @@
           <ShowInRightPart>1</ShowInRightPart>
           <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
           <Ordinal>21</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>FIXEDSALARY</Name>
-          <Caption>Фикс.зарплата</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>22</Ordinal>
           <TreatAsBool>0</TreatAsBool>
           <TreatAsPaswd>0</TreatAsPaswd>
           <TreatAsPicture>0</TreatAsPicture>
@@ -5515,24 +5497,6 @@
           <TreatAsTextarea>0</TreatAsTextarea>
           <TreatAsPhone>0</TreatAsPhone>
         </Column>
-        <Column>
-          <Name>ISAUTODISCOUNT</Name>
-          <Caption>Авто-скидка?</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>9</Ordinal>
-          <TreatAsBool>1</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
       </Columns>
     </Table>
     <Table Caption="Процент специалисту" Name="MANIPULATIONPERCENT">
@@ -5638,24 +5602,6 @@
           <ShowInRightPart>1</ShowInRightPart>
           <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
           <Ordinal>5</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>FIXEDSALARY</Name>
-          <Caption>Фикс.зарплата</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>6</Ordinal>
           <TreatAsBool>0</TreatAsBool>
           <TreatAsPaswd>0</TreatAsPaswd>
           <TreatAsPicture>0</TreatAsPicture>
@@ -14791,114 +14737,6 @@
           <TreatAsTextarea>0</TreatAsTextarea>
           <TreatAsPhone>0</TreatAsPhone>
         </Column>
-        <Column>
-          <Name>CARDNUMBER</Name>
-          <Caption>Номер карты</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>COMMENT</Name>
-          <Caption>Комментарий</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>6</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>1</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>POLICYNUMBER</Name>
-          <Caption>Полис ОМС</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>8</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>SNILS</Name>
-          <Caption>СНИЛС</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>9</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>INSURANCENAME</Name>
-          <Caption>Страховая</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>10</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>PASSPORTNUMBER</Name>
-          <Caption>Паспорт</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>11</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
       </Columns>
     </Table>
     <Table Caption="DICT1CDOCTYPE" Name="DICT1CDOCTYPE">
@@ -15874,42 +15712,6 @@
           <ShowInRightPart>1</ShowInRightPart>
           <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
           <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>VISIBLE</Name>
-          <Caption>Показывать?</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>1</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>ORDERNUMBER</Name>
-          <Caption>Порядк. номер</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
           <TreatAsBool>0</TreatAsBool>
           <TreatAsPaswd>0</TreatAsPaswd>
           <TreatAsPicture>0</TreatAsPicture>
@@ -17517,24 +17319,6 @@
           <TreatAsPicture>0</TreatAsPicture>
           <TreatAsFile>0</TreatAsFile>
           <TreatAsTextarea>1</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>MEDDISEASEID</Name>
-          <Caption>Код</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>4</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
           <TreatAsPhone>0</TreatAsPhone>
         </Column>
       </Columns>
@@ -23755,740 +23539,6 @@
         </Column>
       </Columns>
     </Table>
-    <Table Caption="Настройки - сумма оплат" Name="OPTIONSDISCOUNTSUMMA">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>SUMMA</Name>
-          <Caption>Сумма оплат</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CARDTYPEID</Name>
-          <Caption>Новая скидка</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>LASTOPERATIONDATE</Name>
-          <Caption>LASTOPERATIONDATE</Caption>
-          <Hidden>1</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="Настройки - кол-во посещений" Name="OPTIONSDISCOUNTVISIT">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>VISITCOUNT</Name>
-          <Caption>Кол-во посещ.</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CARDTYPEID</Name>
-          <Caption>Новая скидка</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>LASTOPERATIONDATE</Name>
-          <Caption>LASTOPERATIONDATE</Caption>
-          <Hidden>1</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="KBIMPORT" Name="KBIMPORT">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>QUESTION</Name>
-          <Caption>QUESTION</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>ANSWER</Name>
-          <Caption>ANSWER</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>KBGROUP</Name>
-          <Caption>KBGROUP</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>KBGROUP2</Name>
-          <Caption>KBGROUP2</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>4</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>KBGROUP3</Name>
-          <Caption>KBGROUP3</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>5</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="Групповое занятие" Name="TRAINING">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CABINETID</Name>
-          <Caption>Кабинет</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>4</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>START_EVENT</Name>
-          <Caption>Время начала</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>END_EVENT</Name>
-          <Caption>Время окончания</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>1</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>7</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>DOCTORID</Name>
-          <Caption>Специалист</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>5</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>EMPLOYEEID</Name>
-          <Caption>Администратор</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>6</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>SUBJECT</Name>
-          <Caption>Название</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>1</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>1</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>MANIPULATIONID</Name>
-          <Caption>Услуга</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>MAXCLIENTCOUNT</Name>
-          <Caption>Макс. кол. чел.</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>8</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>APPOINTMENTID</Name>
-          <Caption>APPOINTMENTID</Caption>
-          <Hidden>1</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>9</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="Клиент занятия" Name="TRAININGCLIENT">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>TRAININGID</Name>
-          <Caption>Занятие</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>1</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CLIENTID</Name>
-          <Caption>Клиент</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="Код болезни" Name="MEDDISEASE">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>MEDDISEASEGROUP1ID</Name>
-          <Caption>Группа</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>MEDDISEASEGROUP2ID</Name>
-          <Caption>Подгруппа</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CODE</Name>
-          <Caption>Код</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>1</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>NAME</Name>
-          <Caption>Наименование</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>1</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>4</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="Группа" Name="MEDDISEASEGROUP1">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CODE</Name>
-          <Caption>Код группы</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>1</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>NAME</Name>
-          <Caption>Группа</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
-    <Table Caption="Подгруппа" Name="MEDDISEASEGROUP2">
-      <Columns>
-        <Column>
-          <Name>ID</Name>
-          <Caption>ID</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>0</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>MEDDISEASEGROUP1ID</Name>
-          <Caption>Группа</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>1</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>CODE</Name>
-          <Caption>Код</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>1</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>2</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-        <Column>
-          <Name>NAME</Name>
-          <Caption>Подгруппа</Caption>
-          <Hidden>0</Hidden>
-          <Readonly>0</Readonly>
-          <ShowInEditor>1</ShowInEditor>
-          <ShowInParentalRelations>0</ShowInParentalRelations>
-          <ForceFarLink>0</ForceFarLink>
-          <ShowInRightPart>1</ShowInRightPart>
-          <PartOfEditorTabTitle>0</PartOfEditorTabTitle>
-          <Ordinal>3</Ordinal>
-          <TreatAsBool>0</TreatAsBool>
-          <TreatAsPaswd>0</TreatAsPaswd>
-          <TreatAsPicture>0</TreatAsPicture>
-          <TreatAsFile>0</TreatAsFile>
-          <TreatAsTextarea>0</TreatAsTextarea>
-          <TreatAsPhone>0</TreatAsPhone>
-        </Column>
-      </Columns>
-    </Table>
   </Tables>
   <Relations>
     <Relation Name="APPOINTMENTAPPOINTMENTPAYMENT" Caption="APPOINTMENTAPPOINTMENTPAYMENT">
@@ -26211,28 +25261,28 @@
       <ChildTable>CLIENTWORK</ChildTable>
       <LinkField>CLIENTID</LinkField>
       <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
+      <ShowInRightPart>0</ShowInRightPart>
     </Relation>
     <Relation Name="CLIENTWORKSTATUSCLIENTWORK" Caption="CLIENTWORKSTATUSCLIENTWORK">
       <ParentTable>CLIENTWORKSTATUS</ParentTable>
       <ChildTable>CLIENTWORK</ChildTable>
       <LinkField>CLIENTWORKSTATUSID</LinkField>
       <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
+      <ShowInRightPart>0</ShowInRightPart>
     </Relation>
     <Relation Name="CLIENTWORKTYPECLIENTWORK" Caption="CLIENTWORKTYPECLIENTWORK">
       <ParentTable>CLIENTWORKTYPE</ParentTable>
       <ChildTable>CLIENTWORK</ChildTable>
       <LinkField>CLIENTWORKTYPEID</LinkField>
       <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
+      <ShowInRightPart>0</ShowInRightPart>
     </Relation>
     <Relation Name="DOCTORCLIENTWORK" Caption="DOCTORCLIENTWORK">
       <ParentTable>DOCTOR</ParentTable>
       <ChildTable>CLIENTWORK</ChildTable>
       <LinkField>CREATEDOCTORID</LinkField>
       <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
+      <ShowInRightPart>0</ShowInRightPart>
     </Relation>
     <Relation Name="DICTDISCOUNTTYPEMATERIALSALE" Caption="DICTDISCOUNTTYPEMATERIALSALE">
       <ParentTable>DICTDISCOUNTTYPE</ParentTable>
@@ -26262,101 +25312,10 @@
       <LinkType>OneToMany</LinkType>
       <ShowInRightPart>1</ShowInRightPart>
     </Relation>
-    <Relation Name="CARDTYPEOPTIONSDISCOUNTVISIT" Caption="CARDTYPEOPTIONSDISCOUNTVISIT">
-      <ParentTable>CARDTYPE</ParentTable>
-      <ChildTable>OPTIONSDISCOUNTVISIT</ChildTable>
-      <LinkField>CARDTYPEID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="CARDTYPEOPTIONSDISCOUNTSUMMA" Caption="CARDTYPEOPTIONSDISCOUNTSUMMA">
-      <ParentTable>CARDTYPE</ParentTable>
-      <ChildTable>OPTIONSDISCOUNTSUMMA</ChildTable>
-      <LinkField>CARDTYPEID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
     <Relation Name="DOCTORDEPOSIT" Caption="DOCTORDEPOSIT">
       <ParentTable>DOCTOR</ParentTable>
       <ChildTable>DEPOSIT</ChildTable>
       <LinkField>DOCTORID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="CABINETTRAINING" Caption="CABINETTRAINING">
-      <ParentTable>CABINET</ParentTable>
-      <ChildTable>TRAINING</ChildTable>
-      <LinkField>CABINETID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="DOCTORTRAINING" Caption="DOCTORTRAINING">
-      <ParentTable>DOCTOR</ParentTable>
-      <ChildTable>TRAINING</ChildTable>
-      <LinkField>DOCTORID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="EMPLOYEETRAINING" Caption="EMPLOYEETRAINING">
-      <ParentTable>EMPLOYEE</ParentTable>
-      <ChildTable>TRAINING</ChildTable>
-      <LinkField>EMPLOYEEID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="MANIPULATIONTRAINING" Caption="MANIPULATIONTRAINING">
-      <ParentTable>MANIPULATION</ParentTable>
-      <ChildTable>TRAINING</ChildTable>
-      <LinkField>MANIPULATIONID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="CLIENTTRAININGCLIENT" Caption="CLIENTTRAININGCLIENT">
-      <ParentTable>CLIENT</ParentTable>
-      <ChildTable>TRAININGCLIENT</ChildTable>
-      <LinkField>CLIENTID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="TRAININGTRAININGCLIENT" Caption="TRAININGTRAININGCLIENT">
-      <ParentTable>TRAINING</ParentTable>
-      <ChildTable>TRAININGCLIENT</ChildTable>
-      <LinkField>TRAININGID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="APPOINTMENTTRAINING" Caption="APPOINTMENTTRAINING">
-      <ParentTable>APPOINTMENT</ParentTable>
-      <ChildTable>TRAINING</ChildTable>
-      <LinkField>APPOINTMENTID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="MEDDISEASEMEDCONSULT" Caption="MEDDISEASEMEDCONSULT">
-      <ParentTable>MEDDISEASE</ParentTable>
-      <ChildTable>MEDCONSULT</ChildTable>
-      <LinkField>MEDDISEASEID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="MEDDISEASEGROUP1MEDDISEASEGROUP2" Caption="MEDDISEASEGROUP1MEDDISEASEGROUP2">
-      <ParentTable>MEDDISEASEGROUP1</ParentTable>
-      <ChildTable>MEDDISEASEGROUP2</ChildTable>
-      <LinkField>MEDDISEASEGROUP1ID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="MEDDISEASEGROUP1MEDDISEASE" Caption="MEDDISEASEGROUP1MEDDISEASE">
-      <ParentTable>MEDDISEASEGROUP1</ParentTable>
-      <ChildTable>MEDDISEASE</ChildTable>
-      <LinkField>MEDDISEASEGROUP1ID</LinkField>
-      <LinkType>OneToMany</LinkType>
-      <ShowInRightPart>1</ShowInRightPart>
-    </Relation>
-    <Relation Name="MEDDISEASEGROUP2MEDDISEASE" Caption="MEDDISEASEGROUP2MEDDISEASE">
-      <ParentTable>MEDDISEASEGROUP2</ParentTable>
-      <ChildTable>MEDDISEASE</ChildTable>
-      <LinkField>MEDDISEASEGROUP2ID</LinkField>
       <LinkType>OneToMany</LinkType>
       <ShowInRightPart>1</ShowInRightPart>
     </Relation>
